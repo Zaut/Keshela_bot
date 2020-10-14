@@ -154,35 +154,8 @@ namespace ConsoleApp1
                               "Buy USD : " + kurss[0] + " Sale USD : " + sale[0] + "\n" +
                               "Buy EUR : " + kurss[1] + " Sale EUR : " + sale[1] + "\n" +
                               "Buy RUB : " + kurss[2] + " Sale RUB : " + sale[2]);
-                        //Thread.Sleep(500);
-                        //client.SendTextMessageAsync(e.Message.Chat.Id, "Buy EUR : " + kurss[1] + " Sale EUR : " + sale[1]);
-                        //Thread.Sleep(500);
-                        // client.SendTextMessageAsync(e.Message.Chat.Id, "Buy RUB : " + kurss[2] + " Sale RUB : " + sale[2]);
-                        //Thread.Sleep(500);
                         break;
-                    //case "настройки":
-                    //    var options = new ReplyKeyboardMarkup(new[]
-                    //     {
-                    //        new KeyboardButton("задать интервал"),
-                    //        new KeyboardButton("выбрать валюты"),
-                    //    });
-                    //    options.OneTimeKeyboard = true;
-                    //    client.SendTextMessageAsync(e.Message.Chat.Id, "Выберете нужную настройку", replyMarkup: options);
-                    //    break;
-                    //case "задать интервал":
-                    //    var timerr = new ReplyKeyboardMarkup(new[]
-                    //    {
-                    //        new KeyboardButton("1 минута"),
-                    //        new KeyboardButton("2 минуты"),
-                    //        new KeyboardButton("5 минут"),
-                    //        new KeyboardButton("10 минут"),
-                    //    });
-                    //    timerr.OneTimeKeyboard = true;
-                    //    client.SendTextMessageAsync(e.Message.Chat.Id, "Выберете интервал отправки сообщения", replyMarkup: timerr);
-                    //    break;
-                    //getBuy();
-                    //CreateCommand();
-                    //client.SendTextMessageAsync(e.Message.Chat.Id, "Buy" + Rub + ": " + kurss[2] + " Sale " + Rub + " : " + sale[2]);
+                  
                     default:
                         break;
                 }
